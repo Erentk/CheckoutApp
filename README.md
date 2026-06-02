@@ -1,17 +1,20 @@
-# checkout_app
+# 🛡️ CheckOutApp
 
-A new Flutter project.
+CheckOutApp is a modern cross-platform mobile application built with **Flutter** and **Dart**. It is specifically designed to eliminate leaving-home or workplace anxiety by guiding users through a strict, step-by-step physical security checklist.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- **Multi-Mode Operation:**
+  - 🏠 **Evden Çıkış Mode:** Tracks windows, plugs, stoves, and final door locking. Includes a "Uzun Süreli / Tatil Modu" toggle.
+  - 🌙 **Gece Rutini Mode:** Ensures the house is secure before going to sleep for a peaceful night.
+  - 🏬 **İşyerinden Çıkış Mode:** Tracks electronics, alarms, keys, and main gates. Includes a "Hafta Sonu / Uzun Kapanış" toggle.
+- **Custom Task Creation:** Users can dynamically add and delete their own specific security checkpoints.
+- **Local Persistence:** Uses `SharedPreferences` to save and display the exact date and time of the last completed check.
+- **Haptic Feedback:** Vibrates on every successful check to give a concrete sense of assurance.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack & Architecture
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Framework:** Flutter (Cross-platform)
+- **Language:** Dart
+- **State & Storage:** SharedPreferences (Local JSON encoding/decoding)
+- **Services:** Local Notifications & Haptic Feedback UI integration
