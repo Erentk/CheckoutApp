@@ -18,3 +18,20 @@ CheckOutApp is a modern cross-platform mobile application built with **Flutter**
 - **Language:** Dart
 - **State & Storage:** SharedPreferences (Local JSON encoding/decoding)
 - **Services:** Local Notifications & Haptic Feedback UI integration
+
+## 🚀 How to Run Locally
+
+1. Clone the repository:
+```bash
+   git clone https://github.com/Erentk/checkout-app.git
+```
+
+2. Navigate to the project folder and fetch dependencies:
+```bash
+   flutter pub get
+```
+
+3.Run the application:
+```bash
+   flutter run
+```
